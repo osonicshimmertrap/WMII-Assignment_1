@@ -36,15 +36,15 @@
          <% if(hour >= 0 && hour < 12 ) {%> 
         <h1>Good Morning!</h1>
         
-        <% } else if (hour >=12 && hour < 16) { %>
+        <% } else if (hour >=12 && hour < 18) { %>
         <h1>Good Afternoon!</h1>
         
         
-        <% }else if (hour >=16 && hour < 21) { %>
+        <% }else if (hour >=18 && hour < 21) { %>
         <h1>Good Evening!</h1>
         
         
-        <% } else if (hour >=21 && hour < 24) { %>
+        <% } else if (hour >=21 && hour < 6) { %>
         <h1>Good Night!</h1>
         <%}%>
         
